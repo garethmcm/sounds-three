@@ -1,12 +1,12 @@
+import BasicNav from '../Basics/BasicNav';
+
 function BasicsFront() {
     return (
-      <div>
-        <ul className="menu bg-base-200 rounded-box w-56 bg-base-100 bg-navColour bg-opacity-10">
-          <li><a>Item 1</a></li>
-          <li><a>Item 2</a></li>
-          <li><a>Item 3</a></li>
-        </ul>
-      <section className="py-12">
+      <div className="flex">
+        <div className="w-[60px] py-4 px-4">
+        <BasicNav />
+        </div>
+      <section className="flex-1 flex justify-center py-12">
         <div className="max-w-xl w-full px-4">
           <h1 className="text-2xl font-bold mb-4">Here are the basics</h1>
           <p className="text-lg leading-relaxed">

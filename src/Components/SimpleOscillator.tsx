@@ -33,7 +33,7 @@ const handlePlay = (note: string) => {
 
 
   return (
-    <section className="flex items-center justify-center py-12">
+    <section className="flex flex-center justify-center py-12">
       <div className="max-w-xl w-full px-4">
       <h1 className="text-2xl font-bold mb-4">The background on sound</h1>
       <p className="text-lg leading-relaxed">

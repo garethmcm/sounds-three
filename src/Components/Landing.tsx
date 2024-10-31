@@ -1,6 +1,6 @@
 function Landing() {
   return (
-    <section className="py-12">
+    <section className="flex flex-center justify-center py-12">
       <div className="max-w-xl w-full px-4">
         <h1 className="text-2xl font-bold mb-4">Welcome to Soundo!</h1>
         <p className="text-lg leading-relaxed">

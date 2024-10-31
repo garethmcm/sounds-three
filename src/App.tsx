@@ -12,7 +12,7 @@ function App() {
   return (
       <div className="font-absans text-text bg-background min-h-screen">
         <NavBar />
-        <body className="flex items-center justify-center">
+        <body>
         <Router />
         </body>
         <Footer />
